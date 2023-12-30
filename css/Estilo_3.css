@@ -242,6 +242,7 @@
     color: var(--white-color);
     font-size: 33px;
     font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
   }
 
   .nav-link {
@@ -250,7 +251,6 @@
     letter-spacing: 0.4px;
     margin: 0 1.6em;
     padding: 0.6em;
-    font-style:oblique;
     font-family: 'Plain-Bold', sans-serif;
   }
 
@@ -437,8 +437,7 @@
     cursor: pointer;
     font-size: 22px;
     line-height: 0px;
-    padding: 1.5em 1.3em;
-    font-style: oblique;
+    padding: 1.3em 1em;
     font-family: 'Times New Roman', Times, serif;
   }
 
