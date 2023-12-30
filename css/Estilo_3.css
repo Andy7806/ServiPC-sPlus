@@ -509,6 +509,10 @@
     .nav-link {
       display: inline-block;
     }
+    
+    #icono {
+      display: inline-block;
+    }
 
     .navbar-expand-lg .navbar-nav .nav-link.contact {
       margin: 1em 0;
@@ -525,7 +529,7 @@
   @media screen and (max-width: 767px) {
 
     h1 {
-      font-size: 36px;
+      font-size: 33px;
     }
 
     h2 {
@@ -556,5 +560,18 @@
     }
   }
 
+  /*---------------------------------------
+     MODO OSCURO              
+  -----------------------------------------*/
 
-  
+  #icono{
+    width: 30px;
+    cursor: pointer;
+    top: 24px;
+  }
+  html.dark-mode{
+    filter: invert(100%);
+  }
+  html.dark-mode img{
+    filter: invert(100%);
+  }

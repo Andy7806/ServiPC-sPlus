@@ -52,11 +52,27 @@
                     <li class="nav-item">
                         <a href="contacto.html" class="nav-link contact">Contacto</a>
                     </li>
+                    <li class="nav-item">
+                         <img src="images/moon.png" id="icono">
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+     <!-- MODO OSCURO -->
+
+    <script>
+     var icon = document.getElementById("icono");
+     icon.onclick = function(){
+          document.documentElement.classList.toggle("dark-mode");
+          if(document.documentElement.classList.contains("dark-mode")){
+               icon.src = "images/sun.png";
+          }else{
+               icon.src = "images/moon.png";
+          }
+     }
+    </script>
 
      <!-- HERO -->
      <section class="hero hero-bg d-flex justify-content-center align-items-center">
