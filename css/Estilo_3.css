@@ -476,6 +476,7 @@
     .about-info h2 {
       max-width: 70%;
     }
+
   }
 
   @media screen and (min-width: 991px) {
@@ -528,7 +529,7 @@
     }
 
     h2 {
-      font-size: 28px;
+      font-size: 25px;
     }
 
     h3 {
@@ -548,6 +549,10 @@
 
     .footer-link li {
       margin-left: 0;
+    }
+
+    .form-control{
+      font-size: 10 ;
     }
   }
 
