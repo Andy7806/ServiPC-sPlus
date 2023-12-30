@@ -235,12 +235,12 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 1em;
+    padding: 0.8em;
   }
 
   .navbar-brand {
     color: var(--white-color);
-    font-size: 39px;
+    font-size: 36px;
     font-family: 'Times New Roman', Times, serif;
   }
 
