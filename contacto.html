@@ -51,8 +51,8 @@
                     <li class="nav-item">
                         <a href="contacto.html" class="nav-link active contact">Contacto</a>
                     </li>
-                    <li class="nav-item">
-                      <img src="images/moon.png" id="icono" id="dark-mode">
+                    <li class="nav-item-dark">
+                      <i class="fa-solid fa-moon" id="icono"></i>  
                     </li>
                 </ul>
             </div>
@@ -64,13 +64,7 @@
     <script>
       var icon = document.getElementById("icono");
       icon.onclick = function(){
-           document.documentElement.classList.toggle("dark-mode");
-           if(document.documentElement.classList.contains("dark-mode")){
-                icon.src = "images/sun.png";
-           }else{
-                icon.src = "images/moon.png";
-           }
-      }
+           document.documentElement.classList.toggle("dark-mode")}
      </script>
 
      <!-- CONTACTO -->
@@ -124,7 +118,7 @@
         <div class="row">
 
           <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
-            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Siempre daré el <strong>mejor servicio</strong> a mi cliente!</h1>
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Siempre daré el <strong class="strong">mejor servicio</strong> a mi cliente!</h1>
           </div>
 
           <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">

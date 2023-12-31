@@ -52,7 +52,6 @@
   }
 
   body {
-    background: var(--white-color);
     font-family: var(--base-font-family);
   }
 
@@ -145,7 +144,7 @@
 
   .custom-btn.btn-bg {
     background: var(--white-color);
-    color: var(--primary-color);
+    color: var(--dark-color);
     border-color: transparent;
 	  transition: all .3s ease;
   }
@@ -155,6 +154,12 @@
     background: var(--dark-color);
     color: var(--white-color);
     border-color: transparent;
+  }
+
+  .telefono{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
   }
 
   /*---------------------------------------
@@ -194,7 +199,7 @@
   }
 
   .section-padding {
-    padding: 8em 0;
+    padding: 5em 0;
   }
   .section-padding-half {    
     padding: 4em 0;
@@ -216,7 +221,7 @@
   .whatsapp{
     color: rgb(0, 255, 13);
     font-size: 27px;
-    font-family: 'Plain-Bold', sans-serif;
+    font-family: 'Plain-Bold', sans-serif;    
   }
 
   .thekey{
@@ -230,7 +235,7 @@
   -----------------------------------------*/
 
   .navbar {
-    background: var(--menu-bg);
+    background: rgb(0, 0, 0);
     z-index: 2;
     top: 0;
     right: 0;
@@ -239,19 +244,19 @@
   }
 
   .navbar-brand {
-    color: var(--white-color);
+    color: #f1c111;
     font-size: 33px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
   }
 
   .nav-link {
-    color: var(--white-color);
+    color: #f1c111;
     font-size: var(--menu-font-size);
     letter-spacing: 0.4px;
     margin: 0 1.6em;
-    padding: 0.6em;
-    font-family: 'Plain-Bold', sans-serif;
+    padding: 0.9em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
   .nav-link.active,
@@ -268,8 +273,7 @@
     border: 2px solid var(--secondary-color);
     border-radius: var(--border-radius-large);
     color: var(--secondary-color);
-    font-family: var(--font-bold-family);
-    padding: 0.6em 2em 0.8em 2em;
+    padding: 0.8em 2em 0.8em 2em;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link.contact:hover,
@@ -353,7 +357,7 @@
 
 .texto{
   font-family: 'Times New Roman', Times, serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
   .hero {
@@ -363,7 +367,7 @@
   }
 
   .hero-bg {
-    background: linear-gradient(170deg, var(--primary-color) 64%, var(--white-color) 30%);
+    background: linear-gradient(170deg, var(--secondary-color) 64%, var(--white-color) 30%);
   }
 
   .hero-image {
@@ -388,7 +392,7 @@
   }
 
   .blog-header-info {
-    background: linear-gradient(transparent,rgba(0, 47, 255, 0.445));
+    background: linear-gradient(transparent,#f1c111);
     position: absolute;
     right: 0;
     left: 0;
@@ -406,7 +410,7 @@
 
   .blog-sidebar img {
     border-radius: var(--border-radius-small);
-    width: 159px;
+    width: 122px;
     margin-right: 22px;
   }
 
@@ -414,6 +418,10 @@
     font-size: 18px;
   }
 
+  .redes_sociales{
+    color: #f1c111;
+
+  }
 
 
   /*---------------------------------------
@@ -452,7 +460,7 @@
   -----------------------------------------*/
 
   .site-footer {
-    background: var(--dark-color);
+    background: rgb(0, 0, 0);
     padding: 7em 0 5em 0;
   }
 
@@ -485,6 +493,7 @@
       max-width: 32%;
       margin: 0 auto;
     }
+    
   }
 
   @media screen and (max-width: 991px) {
@@ -529,7 +538,7 @@
   @media screen and (max-width: 767px) {
 
     h1 {
-      font-size: 33px;
+      font-size: 30px;
     }
 
     h2 {
@@ -565,13 +574,52 @@
   -----------------------------------------*/
 
   #icono{
-    width: 30px;
+    position: relative;
+    top: 17px;
     cursor: pointer;
-    top: 24px;
+    background-color:#f1c111;
+    border-radius: 50%;
+    text-align: center;
+    padding: 4px;
+    width: 24px;
+    height: 24px;
   }
-  html.dark-mode{
+  html.dark-mode {
     filter: invert(100%);
   }
-  html.dark-mode img{
+  html.dark-mode img {
+    filter: invert(100%);
+  }
+  html.dark-mode .hero-bg .hero{
+    filter: invert(100%);
+  }
+  html.dark-mode .site-footer {
+    filter: invert(100%);
+  }
+  html.dark-mode .navbar {
+    filter: invert(100%);
+  }
+  html.dark-mode .footer-icon {      
+    filter: invert(100%);
+  }
+  html.dark-mode .strong {      
+    filter: invert(100%);
+  }
+  html.dark-mode .nav-item-dark{      
+    filter: invert(100%);
+  }
+  html.dark-mode .nav-link{      
+    filter: invert(100%);
+  }
+  html.dark-mode .navbar-brand{      
+    filter: invert(100%);
+  }
+  html.dark-mode .facebook{      
+    filter: invert(100%);
+  }
+  html.dark-mode .instagram{      
+    filter: invert(100%);
+  }
+  html.dark-mode .whatsapp{      
     filter: invert(100%);
   }

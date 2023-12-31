@@ -52,8 +52,8 @@
                     <li class="nav-item">
                         <a href="contacto.html" class="nav-link contact">Contacto</a>
                     </li>
-                    <li class="nav-item">
-                         <img src="images/moon.png" id="icono">
+                    <li class="nav-item-dark">
+                         <i class="fa-solid fa-moon" id="icono"></i> 
                     </li>
                 </ul>
             </div>
@@ -65,13 +65,7 @@
     <script>
      var icon = document.getElementById("icono");
      icon.onclick = function(){
-          document.documentElement.classList.toggle("dark-mode");
-          if(document.documentElement.classList.contains("dark-mode")){
-               icon.src = "images/sun.png";
-          }else{
-               icon.src = "images/moon.png";
-          }
-     }
+          document.documentElement.classList.toggle("dark-mode")}
     </script>
 
      <!-- HERO -->
@@ -86,7 +80,7 @@
 
                                    <a href="contacto.html" class="custom-btn btn-bg btn mt-3" data-aos="fade-up" data-aos-delay="100">¡Comuníquese Conmigo!</a>
 
-                                   <strong class="d-block py-3 pl-5 text-white" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-phone mr-2"></i> +58 412 959 59 65</strong>
+                                   <h4 class="d-block py-3 pl-5 telefono" data-aos="fade-up" data-aos-delay="200"><i class="fa fa-phone mr-2"></i> +58 412 959 59 65</h4>
                               </div>
                         </div>
 
@@ -235,7 +229,7 @@
 
                       <p data-aos="fade-up" data-aos-delay="400">
                          <i class="fa-brands fa-windows"></i>
-                        <strong>  Windows MiniOS Estables</strong>
+                        <strong >  Windows MiniOS Estables</strong>
 
                         <span class="mx-1">/</span>
 
@@ -253,7 +247,7 @@
         <div class="row">
 
           <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
-            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Siempre daré el <strong>mejor servicio</strong> a mi cliente!</h1>
+            <h1 class="text-white" data-aos="fade-up" data-aos-delay="100">Siempre daré el<strong class="strong"> mejor servicio</strong> a mi cliente!</h1>
           </div>
 
           <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200">
